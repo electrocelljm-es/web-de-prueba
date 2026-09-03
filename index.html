@@ -651,6 +651,24 @@
             color: #86bb9a !important;
         }
 
+        /* ===== NUEVO CARRUSEL DORADO - MODO CLARO ===== */
+        body.tema-claro .carrusel-dorado {
+            background: #fef9e7 !important;
+            border-color: #f0c040 !important;
+        }
+
+        body.tema-claro .carrusel-dorado .gradiente-lateral {
+            background: transparent !important;
+        }
+
+        body.tema-claro .carrusel-dorado .text-amber-400 {
+            color: #b8860b !important;
+        }
+
+        body.tema-claro .carrusel-dorado .text-amber-500\/30 {
+            color: #d4af37 !important;
+        }
+
         /* ===== ESTILOS PARA EL ACORDEÓN FAQ ===== */
         .faq-item {
             border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -1454,6 +1472,38 @@
                 <span>✦ NOKIA HARD RESET/FRP ONLINE</span>
                 <span class="text-green-500/30">|</span>
                 <span>✦ HUAWEI / HONOR FRP ONLINE</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================
+         NUEVO CARRUSEL DE SERVICIOS AVANZADOS RD (DORADO)
+         ========================================== -->
+    <div class="w-full bg-slate-900/50 border-y border-amber-500/30 py-4 overflow-hidden relative group carrusel-dorado">
+        <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-slate-900 to-transparent z-10 gradiente-lateral"></div>
+        <div class="absolute inset-y-0 right-0 w-20 bg-gradient-to-l from-slate-900 to-transparent z-10 gradiente-lateral"></div>
+        <div class="flex animate-scroll-anuncio whitespace-nowrap">
+            <div class="flex items-center gap-12 px-6 text-amber-400 font-bold text-xs sm:text-sm md:text-base lg:text-lg uppercase tracking-wider">
+                <span>✦ SERVICIOS AVANZADOS SOLO PARA RD</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ ISP (IN-SYSTEM PROGRAMMING)</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ CHIP OFF</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ DRILL CPU</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ REPARACIONES DE PLACA</span>
+            </div>
+            <div class="flex items-center gap-12 px-6 text-amber-400 font-bold text-xs sm:text-sm md:text-base lg:text-lg uppercase tracking-wider" aria-hidden="true">
+                <span>✦ SERVICIOS AVANZADOS SOLO PARA RD</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ ISP (IN-SYSTEM PROGRAMMING)</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ CHIP OFF</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ DRILL CPU</span>
+                <span class="text-amber-500/30">|</span>
+                <span>✦ REPARACIONES DE PLACA</span>
             </div>
         </div>
     </div>
@@ -6463,23 +6513,29 @@
                             <li>Presionar "Start" y esperar a que finalice el flasheo (no desconectar).</li>
                             <li>El dispositivo se reiniciará automáticamente.</li>
                         </ol>
-                        <div class="mt-2">
+                        <div class="mt-3 flex items-center gap-3 flex-wrap">
                             <span class="text-[10px] text-slate-500">📺 Video tutorial:</span>
-                            <a href="#" target="_blank" class="text-indigo-400 hover:underline text-xs ml-2">[Enlace a video]</a>
+                            <a href="https://youtu.be/ID-EHG7-5cY?si=NQ2y1bVyB1XXakQC" target="_blank" class="text-indigo-400 hover:underline text-xs">¿Como Flashear con Odin?</a>
+                            <a href="https://youtu.be/ID-EHG7-5cY?si=NQ2y1bVyB1XXakQC" target="_blank" class="inline-flex items-center gap-1.5 bg-[#FF0000] hover:bg-[#CC0000] text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition shadow-md hover:shadow-lg">
+                                <i class="fab fa-youtube text-sm"></i> Ver en YouTube
+                            </a>
                         </div>
                     </div>
-                    <!-- Guía 2: Entrar en modo EDL en Xiaomi -->
+                    <!-- Guía 2: Entrar en modo EDL en Samsung -->
                     <div class="bg-slate-800/30 p-4 rounded-lg">
-                        <h4 class="text-indigo-400 font-bold text-sm">🔧 Entrar en modo EDL en Xiaomi</h4>
+                        <h4 class="text-indigo-400 font-bold text-sm">🔧 Entrar en modo EDL en Samsung</h4>
                         <ol class="list-decimal list-inside text-slate-300 text-xs space-y-1 mt-1">
                             <li>Apagar el dispositivo completamente.</li>
                             <li>Mantener presionado Volumen Abajo y conectar el cable USB a la PC.</li>
                             <li>El dispositivo debería aparecer como "Qualcomm HS-USB QDLoader 9008" en el administrador de dispositivos.</li>
-                            <li>Si no funciona, usar testpoint (puentear puntos en la placa).</li>
+                            <li>Si no funciona, debes intentarlo con un cable especial EDL o usar el metodo de testpoint (puentear puntos en la placa).</li>
                         </ol>
-                        <div class="mt-2">
+                        <div class="mt-3 flex items-center gap-3 flex-wrap">
                             <span class="text-[10px] text-slate-500">📺 Video tutorial:</span>
-                            <a href="#" target="_blank" class="text-indigo-400 hover:underline text-xs ml-2">[Enlace a video]</a>
+                            <a href="https://youtu.be/RA-oxzvjdq4?si=GEk5CEHgdT56vzu3" target="_blank" class="text-indigo-400 hover:underline text-xs">¿Como realizar un FRP Samsung en modo EDL con Octoplus?</a>
+                            <a href="https://youtu.be/RA-oxzvjdq4?si=GEk5CEHgdT56vzu3" target="_blank" class="inline-flex items-center gap-1.5 bg-[#FF0000] hover:bg-[#CC0000] text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition shadow-md hover:shadow-lg">
+                                <i class="fab fa-youtube text-sm"></i> Ver en YouTube
+                            </a>
                         </div>
                     </div>
                     <!-- Guía 3: Reparar IMEI con herramientas -->
@@ -6492,9 +6548,12 @@
                             <li>Leer el IMEI actual y modificarlo con los comandos correspondientes.</li>
                             <li>Escribir el nuevo IMEI y reiniciar el dispositivo.</li>
                         </ol>
-                        <div class="mt-2">
+                        <div class="mt-3 flex items-center gap-3 flex-wrap">
                             <span class="text-[10px] text-slate-500">📺 Video tutorial:</span>
-                            <a href="#" target="_blank" class="text-indigo-400 hover:underline text-xs ml-2">[Enlace a video]</a>
+                            <a href="https://youtu.be/4abpQmpUGB8?si=I-7llYHW961s5bl2" target="_blank" class="text-indigo-400 hover:underline text-xs">¿Como reparar IMEI con ChimeraTool?</a>
+                            <a href="https://youtu.be/4abpQmpUGB8?si=I-7llYHW961s5bl2" target="_blank" class="inline-flex items-center gap-1.5 bg-[#FF0000] hover:bg-[#CC0000] text-white text-xs font-semibold px-3 py-1.5 rounded-lg transition shadow-md hover:shadow-lg">
+                                <i class="fab fa-youtube text-sm"></i> Ver en YouTube
+                            </a>
                         </div>
                     </div>
                 </div>
